@@ -1,0 +1,168 @@
+/* Soal 1 */
+#pond {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* soal 2 */
+#pond {
+    display: flex;
+    justify-content: center;
+}
+
+/* soal 3 */
+#pond {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* soal 4 */
+#pond {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* soal 5 */
+#pond {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* soal 6 */
+#pond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* soal 7 */
+#pond {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* soal 8 */
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* soal 9 */
+#pond {
+    display: flex;
+    flex-direction: column;
+}
+
+/* soal 10 */
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/* soal 11 */
+#pond {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* soal 12 */
+#pond {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;;
+}
+
+/* soal 13 */
+#pond {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;    
+}
+
+/* soal 14 */
+#pond {
+    display: flex;
+}
+.yellow {
+    order: 2;
+}
+
+/* soal 15 */
+#pond {
+    display: flex;
+}
+.red {
+    order: -3;
+}
+
+/* soal 16 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
+.yellow {
+    align-self: flex-end;
+}
+
+/* soal 17 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
+.yellow {
+    order: 4;
+    align-self: flex-end;
+}
+
+/* soal 18 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* soal 19 */
+#pond {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* soal 20 */
+#pond {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* soal 21 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* soal 22 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+/* soal 23 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+/* soal 24 */
+#pond {
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    justify-content: center;
+}

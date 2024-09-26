@@ -1,0 +1,297 @@
+/*soal 1*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column-start: 3;
+}
+
+/*soal 2*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#poison {
+  grid-column-start: 5;
+}
+
+/*soal 3*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+/*soal 4*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column-start: 5;
+  grid-column-end: 2;
+}
+
+/*soal 5*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+/*soal 6*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#poison {
+  grid-column-start: 4;
+}
+
+/*soal 7*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+}
+
+/*soal 8*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column-start: 1;
+  grid-column-end: span 4;
+}
+
+/*soal 9*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column-start: span 3;
+  grid-column-end: 6;
+}
+
+/*soal 10*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column: 4/6;
+}
+
+/*soal 11*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column: 2 / span 3;
+}
+
+/*soal 12*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-row-start: 3;
+}
+
+/*soal 13*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-row: 3 / span 5;
+}
+
+/*soal 14*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#poison {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+/*soal 15*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-column: 2 / span 5;
+  grid-row: span 5;
+}
+
+/*soal 16*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water {
+  grid-area: 1/2/4/6;
+}
+
+/*soal 17*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#water-1 {
+  grid-area: 1 / 4 / 6 / 5;
+}
+#water-2 {
+  grid-area: 2/3/5 / span 3;
+}
+
+/*soal 18*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.water {
+  order: 0;
+}
+#poison {
+  order: 3;
+}
+
+/*soal 19*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.water {
+  order: 0;
+}
+
+.poison {
+  order: -1;
+}
+
+/*soal 20*/
+#garden {
+  display: grid;
+  grid-template-columns: 50%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/*soal 21*/
+#garden {
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/*soal 22*/
+#garden {
+  display: grid;
+  grid-template-columns: 100px 3em 40%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/*soal 23*/
+#garden {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/*soal 24*/
+#garden {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr 50px;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+  grid-area: 1 / 1 / 6 / 2;
+}
+
+#poison {
+  grid-area: 1 / 5 / 6 / 6;
+}
+
+/*soal 25*/
+#garden {
+  display: grid;
+  grid-template-columns: 75px 3fr 2fr;
+  grid-template-rows: 100%;
+}
+
+/*soal 26*/
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 50px 2fr 2fr 2fr 100000fr;
+}
+
+#water {
+  grid-column: 1 / 6;
+  grid-row: 5 / 6;
+}
+
+/*soal 27*/
+#garden {
+  display: grid;
+  grid-template: 60% / 200px;
+}
+
+#water {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/*soal 28*/
+#garden {
+  display: grid;
+  grid-template: 1fr 50px / 20% 1fr;
+}
